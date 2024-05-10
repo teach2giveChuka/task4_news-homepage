@@ -13,6 +13,14 @@
     justify-content: center;
     font-family: 'Inter', sans-serif;
   }
+  .logo {
+   
+  }
+  
+  .logo img {
+    height: 32px;
+    width: auto;
+  }
   
   .main {
     display: flex;
@@ -161,15 +169,17 @@
   .box2 {
     grid-area: b2;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-left: 5px;
   }
   
   .box3 {
     grid-area: b3;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-left: 20px;
   }
   
   .number {
@@ -198,6 +208,7 @@
   @media screen and (max-width: 768px) {
     .main {
       width: 100%;
+
     }
   
     .grid1 {
@@ -220,5 +231,6 @@
   
     .grid2 {
       grid-template-columns: repeat(1, 1fr);
+
     }
   }
