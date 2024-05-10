@@ -5,7 +5,7 @@
   }
   
   body {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -22,12 +22,13 @@
     width: auto;
   }
   
-  .main {
+  .main {margin: 40px;
+
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    height: 100%;
     width: 77vw;
   }
   
@@ -126,14 +127,17 @@
   
   button:hover {
     background-color: #00001A;
+    cursor: pointer;
   }
   
   nav ul li a:hover {
     color: #D96A64;
+    cursor: pointer;
   }
   
   .heading:hover {
     color: #F0AD54;
+    cursor: pointer;
   }
   
   .paragraph1 {
@@ -222,7 +226,7 @@
     }
   
     .new {
-      padding: 0 10px;
+      padding: 5px 10px;
     }
   
     .button {
@@ -230,7 +234,13 @@
     }
   
     .grid2 {
-      grid-template-columns: repeat(1, 1fr);
-
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+          'b1'
+          'b2'
+          'b3';
+      }
     }
-  }
