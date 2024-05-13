@@ -25,7 +25,7 @@ This project is a front-end coding challenge provided by Frontend Mentor.
 ### Links
 
 - Solution URL: [News-HomePage-Main](https://github.com/teach2giveChuka/task4_news-homepage)
-- Live Site URL: [Live page](https://marshal-emanuel.github.io/teach2giveTask2_Qr_Code/)
+- Live Site URL: [Live page](https://marshal-emanuel.github.io/imported-desktop-challenge/)
 
 ## My process
 
